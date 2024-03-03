@@ -65,7 +65,7 @@ const Login = () => {
   return (
     <>
       <Helmet>
-        <title>Login page - contactsaver.com</title>
+        <title>Login page - contactsaver</title>
       </Helmet>
       <div className="flex mt-10 justify-center items-center flex-col pt-20">
         {errorDisplay && (

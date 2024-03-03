@@ -93,7 +93,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact - contactsaver.com</title>
+        <title>Contact - contactsaver</title>
       </Helmet>
       <div className="flex justify-center mt-10 pt-14">
         <div className="flex flex-col px-10 md:px-20 py-20 mb-2 w-full md:w-4/5 min-h-screen bg-slate-50 rounded-2xl shadow-2xl border-lightGreen border-2">

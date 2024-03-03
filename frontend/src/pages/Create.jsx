@@ -56,7 +56,7 @@ const Create = () => {
   return (
     <>
       <Helmet>
-        <title>Create new contact - contactsaver.com</title>
+        <title>Create new contact - contactsaver</title>
       </Helmet>
       <div className="flex flex-col md:flex-row gap-10 justify-center items-center pt-20 mt-16 md:mt-32">
         <div className="flex flex-col md:flex-row gap-5 justify-center items-center">

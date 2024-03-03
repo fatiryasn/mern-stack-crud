@@ -69,7 +69,7 @@ const Detail = () => {
   return (
     <>
       <Helmet>
-        <title>{`Detail | ${contact.name} - contactsaver.com`}</title>
+        <title>{`Detail | ${contact.name} - contactsaver`}</title>
       </Helmet>
       <div className="flex justify-center items-center pt-20 mt-10 mx-10 h-fittiest">
         {loading ? (

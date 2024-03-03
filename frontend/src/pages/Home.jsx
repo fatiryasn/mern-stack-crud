@@ -63,7 +63,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>contactsaver.com - A website for your contact list</title>
+        <title>contactsaver - A website for your contact list</title>
       </Helmet>
       <div className="flex flex-col mt-20 pt-20 lg:mt-10 lg:mx-20">
         <div className="grid grid-cols-1 place-content-center place-items-center lg:grid-cols-2 lg:h-fittiest">

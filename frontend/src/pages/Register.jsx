@@ -65,7 +65,7 @@ const Register = () => {
   return (
     <>
     <Helmet>
-      <title>Sign up - contactsaver.com</title>
+      <title>Sign up - contactsaver</title>
     </Helmet>
     <div className="flex mt-10 justify-center items-center flex-col pt-20">
       {errorDisplay && <ErrorPopup message={error} onClose={() => setErrorDisplay(false)} />}

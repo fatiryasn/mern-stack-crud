@@ -80,7 +80,7 @@ const Navbar = () => {
         <div className=" text-center flex justify-center items-center sm:w-40">
           <img src={icon} className="h-9 drop-shadow"></img>
           <p className="hidden font-mooli text-sm font-bold sm:block">
-            contactsaver.com
+            contactsaver
           </p>
         </div>
 

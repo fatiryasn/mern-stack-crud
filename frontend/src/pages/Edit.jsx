@@ -73,7 +73,7 @@ const Edit = () => {
   return (
     <>
       <Helmet>
-        <title>{`Update | ${contact.name} - contactsaver.com`}</title>
+        <title>{`Update | ${contact.name} - contactsaver`}</title>
       </Helmet>
       <div className="flex flex-col md:flex-row gap-10 justify-center items-center pt-20 mt-16 md:mt-32">
         <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
