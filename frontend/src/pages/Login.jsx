@@ -74,7 +74,7 @@ const Login = () => {
         <h1 className="font-bold text-wrap text-center text-3xl mt-5">
           <span className="text-green-600">Login</span>
         </h1>
-        <div className="flex flex-col items-center justify-center pl-10 pr-12 pb-16 pt-8 mt-10 border rounded-xl shadow-2xl bg-white">
+        <div className=" min-w-96 flex flex-col items-center justify-center pl-10 pr-12 pb-16 pt-8 mt-10 border rounded-xl shadow-2xl bg-white">
           {loading ? (
             <Loader />
           ) : (

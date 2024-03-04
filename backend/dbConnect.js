@@ -2,7 +2,7 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 
 const dbConnect = () => {
-    const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/merndb'
+    const uri = process.env.MONGODB_URI
     mongoose.connect(uri)
 
     mongoose.connection.on('connected', () => {
