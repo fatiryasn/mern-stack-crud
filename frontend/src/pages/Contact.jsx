@@ -102,10 +102,10 @@ const Contact = () => {
               {/* Header */}
               <div className="flex justify-between items-center">
                 <div className=" flex flex-col ">
-                  <p className="font-bold font-poppins text-xl md:text-2xl text-center md:text-start">
+                  <p className="font-bold font-poppins text-xl md:text-2xl">
                     Hi, {username}
                   </p>
-                  <p className="font-thin text-center text-sm md:text-base font-quicksand tracking-widest mt-5 border-b border-zinc-700 w-fit pb-1 text-nowrap">
+                  <p className="font-thin text-sm md:text-base font-quicksand tracking-widest mt-5 border-b border-zinc-700 w-fit pb-1 text-nowrap">
                     Your contact list
                   </p>
                 </div>
