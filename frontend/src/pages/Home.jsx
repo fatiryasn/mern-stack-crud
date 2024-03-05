@@ -15,7 +15,8 @@ import mongo from "../assets/mongo.png";
 import vite from "../assets/vite.png";
 import react from "../assets/react.png";
 import node from "../assets/node.png";
-import resp from "../assets/resp.png"
+import resp from "../assets/resp.png";
+import Footer from "../components/Footer";
 
 //component
 const Home = () => {
@@ -175,6 +176,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

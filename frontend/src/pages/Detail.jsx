@@ -17,6 +17,7 @@ import {
 //local file
 import BackButton from "../components/BackButton.jsx";
 import Loader from "../components/Loader.jsx";
+import Footer from "../components/Footer";
 
 
 const Detail = () => {
@@ -113,6 +114,7 @@ const Detail = () => {
           </div>
         )}
       </div>
+      <Footer />
     </>
   );
 };

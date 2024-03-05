@@ -8,6 +8,7 @@ import { enqueueSnackbar } from "notistack";
 //local file
 import BackButton from "../components/BackButton";
 import Loader from "../components/Loader";
+import Footer from "../components/Footer";
 
 //font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -146,6 +147,7 @@ const Edit = () => {
           )}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

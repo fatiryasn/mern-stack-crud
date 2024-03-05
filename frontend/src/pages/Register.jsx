@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 //local file
 import BackButton from "../components/BackButton";
 import ErrorPopup from "../components/ErrorPopup";
+import Footer from "../components/Footer";
 
 //font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -140,6 +141,7 @@ const Register = () => {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   );
 };

@@ -9,6 +9,7 @@ import { enqueueSnackbar } from "notistack";
 import BackButton from "../components/BackButton";
 import TokenAlert from "../components/TokenAlert";
 import Loader from "../components/Loader";
+import Footer from "../components/Footer";
 
 //font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -129,6 +130,7 @@ const Create = () => {
           )}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

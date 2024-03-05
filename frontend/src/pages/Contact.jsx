@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import Pagination from "../components/Pagination";
 import Loader from "../components/Loader";
 import TokenAlert from "../components/TokenAlert";
+import Footer from "../components/Footer";
 
 //font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -243,6 +244,7 @@ const Contact = () => {
           )}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
