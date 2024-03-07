@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-col gap-5 items-center md:items-end">
           <p className="font-quicksand text-sm md:text-base">Meet the creator</p>
           <p className="font-poppins md:text-lg text-lightGreen text-base ">Fatir Ahmad Yasin</p>
-          <Link to='https://www.instagram.com/ftryas.n/'><p className="text-sm text-nowrap md:text-base underline decoration-lightGreen font-quicksand"><FontAwesomeIcon icon={faInstagram} /> ftryas.n</p></Link>
+          <p className="cursor-pointer text-sm text-nowrap md:text-base underline decoration-lightGreen font-quicksand" onClick={() => window.open("https://www.instagram.com/ftryas.n", "_blank")}><FontAwesomeIcon icon={faInstagram} /> ftryas.n</p>
           <p></p>
         </div>
       </div>
