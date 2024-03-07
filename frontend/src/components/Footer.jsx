@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="flex flex-col gap-5 items-center md:items-end">
           <p className="font-quicksand text-sm md:text-base">Meet the creator</p>
           <p className="font-poppins md:text-lg text-lightGreen text-base ">Fatir Ahmad Yasin</p>
-          <Link to='https://www.instagram.com/ftryas.n/'><p className="text-sm text-nowrap md:text-base underline decoration-lightGreen"><FontAwesomeIcon icon={faInstagram} /> ftryas.n</p></Link>
+          <Link to='https://www.instagram.com/ftryas.n/'><p className="text-sm text-nowrap md:text-base underline decoration-lightGreen font-quicksand"><FontAwesomeIcon icon={faInstagram} /> ftryas.n</p></Link>
           <p></p>
         </div>
       </div>
-      <div className="grid grid-cols-3 place-items-center mt-10 font-thin text-sm opacity-95">
-        <p>Made with love</p>
+      <div className="grid grid-cols-3 place-items-center mt-10 font-thin text-xs opacity-95 font-quicksand">
+        <p className="text-nowrap">Made with love</p>
         <div className="h-7 w-[1px] bg-white"></div>
-        <p>All rights reserved.</p>
+        <p className="text-nowrap">All rights reserved.</p>
       </div>
     </div>
   );
