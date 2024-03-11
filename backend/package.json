@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
-    "devStart": "nodemon server.js",
-    "vercel-build": "echo hello"
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
