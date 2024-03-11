@@ -16,6 +16,12 @@ app.use(express.json())
 app.use('/api', contactRoute)
 app.use('/api', userRoute)
 
+app.get('/', (req, res) => {
+    res.send("hello world")
+})
+
 app.listen(port, () => {
     console.log(`Listening at: ${port}`)
 })
+
+module.exports = app
