@@ -35,7 +35,7 @@ const Navbar = () => {
     if (token) {
       setLoading(true);
       axios
-        .get("http://localhost:8080/api/user/profile", {
+        .get("https://contactsaver-api.vercel.app/api/user/profile", {
           headers: { Authorization: token },
         })
         .then((res) => {

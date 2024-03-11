@@ -30,7 +30,7 @@ const Edit = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8080/api/contact/${id}`)
+      .get(`https://contactsaver-api.vercel.app/api/contact/${id}`)
       .then((res) => {
         setContact(res.data);
         setName(res.data.name);
@@ -55,7 +55,7 @@ const Edit = () => {
     //api call (edit contact)
     setLoading(true);
     axios
-      .put(`http://localhost:8080/api/contact/${id}`, editedContact)
+      .put(`https://contactsaver-api.vercel.app/api/contact/${id}`, editedContact)
       .then(() => {
         enqueueSnackbar(`${contact.name} has been updated!`, {
           variant: "success",

@@ -32,7 +32,7 @@ const Detail = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8080/api/contact/${id}`)
+      .get(`https://contactsaver-api.vercel.app/api/contact/${id}`)
       .then((res) => {
         setContact(res.data);
         setLoading(false);
@@ -50,7 +50,7 @@ const Detail = () => {
     if (confirmation) {
       setLoading(true);
       axios
-        .delete(`http://localhost:8080/api/contact/${contact._id}`)
+        .delete(`https://contactsaver-api.vercel.app/api/contact/${contact._id}`)
         .then(() => {
           setLoading(false);
           enqueueSnackbar(`${contact.name} has been deleted `, {

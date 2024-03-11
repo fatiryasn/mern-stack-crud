@@ -38,7 +38,7 @@ const Contact = () => {
     setLoading(true);
     axios
       .get(
-        `http://localhost:8080/api/contact?page=${page}&search=${search}&sort=${sort}&limit=${limit}`,
+        `https://contactsaver-api.vercel.app/api/contact?page=${page}&search=${search}&sort=${sort}&limit=${limit}`,
         { headers: { Authorization: token } }
       )
       .then((res) => {
@@ -58,7 +58,7 @@ const Contact = () => {
     if (token) {
       setLoading(true);
       axios
-        .get("http://localhost:8080/api/user/profile", {
+        .get("https://contactsaver-api.vercel.app/api/user/profile", {
           headers: { Authorization: token },
         })
         .then((res) => {

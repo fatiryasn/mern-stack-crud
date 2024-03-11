@@ -37,7 +37,7 @@ const Login = () => {
     //api call (user login&token)
     setLoading(true);
     axios
-      .post("http://localhost:8080/api/user/login", newUser)
+      .post("https://contactsaver-api.vercel.app/api/user/login", newUser)
       .then((res) => {
         localStorage.setItem("token", res.data.token);
         enqueueSnackbar(`Logged in! Welcome`, { variant: "success" });

@@ -36,7 +36,7 @@ const Create = () => {
     //api call (send data)
     setLoading(false);
     axios
-      .post("http://localhost:8080/api/contact", newContact, {
+      .post("https://contactsaver-api.vercel.app/api/contact", newContact, {
         headers: { Authorization: token },
       })
       .then(() => {

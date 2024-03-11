@@ -38,7 +38,7 @@ const Register = () => {
     //api call (user register)
     setLoading(true);
     axios
-      .post("http://localhost:8080/api/user/register", newUser)
+      .post("https://contactsaver-api.vercel.app/api/user/register", newUser)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Signed up, please relog now", { variant: "info" });
